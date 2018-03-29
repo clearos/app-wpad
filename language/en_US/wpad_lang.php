@@ -1,0 +1,45 @@
+<?php
+$lang['wpad_app_description'] = 'The Web Proxy Auto Discovery Protocol (WPAD) provides applications connecting to the Internet with information about proxies and rules to use when connecting to servers (local or remote).';
+$lang['wpad_app_name'] = 'Web Proxy Auto Discovery';
+$lang['wpad_autodetect'] = 'Auto-Detect';
+$lang['wpad_autogenerate'] = 'Auto-Generate';
+$lang['wpad_configure_web_proxy'] = 'Configure Web Proxy';
+$lang['wpad_custom'] = 'Custom PAC File';
+$lang['wpad_default_rule'] = 'Default Action';
+$lang['wpad_dhcp'] = 'DHCP';
+$lang['wpad_dhcp_not_configured'] = 'DHCP requires configuration';
+$lang['wpad_dhcp_not_installed'] = 'DHCP app not installed';
+$lang['wpad_dns'] = 'DNS';
+$lang['wpad_dns_not_installed'] = 'DNS app not installed';
+$lang['wpad_enabled'] = 'WPAD Service';
+$lang['wpad_exempt_from_proxy'] = 'Exemption List (bypass proxy)';
+$lang['wpad_exemption_list_is_invalid'] = 'Exemption list is invalid.';
+$lang['wpad_install_web_proxy'] = 'Install Web Proxy Server';
+$lang['wpad_install_web_server'] = 'Install Web Server';
+$lang['wpad_manually_configure'] = 'Set manually';
+$lang['wpad_pac_configuration'] = 'PAC File Configuration';
+$lang['wpad_pac_end_is_invalid'] = 'Invalid end of PAC file - must end with a closing curly bracket (eg })';
+$lang['wpad_pac_file'] = 'PAC File';
+$lang['wpad_pac_return_is_invalid'] = 'Invalid PAC file - must have at least one return statement (eg. return "DIRECT";)';
+$lang['wpad_pac_start_is_invalid'] = 'Invalid start of PAC file - must start with the following';
+$lang['wpad_proxy_ip_address'] = 'IP Address';
+$lang['wpad_proxy_location'] = 'Proxy IP/Location';
+$lang['wpad_proxy_location_is_invalid'] = 'Invalid proxy location.';
+$lang['wpad_proxy_port'] = 'Proxy Port';
+$lang['wpad_proxy_port_is_invalid'] = 'Invalid proxy port.';
+$lang['wpad_proxy_port_number'] = 'Port Number';
+$lang['wpad_proxy_server_not_installed'] = 'The web proxy server is not installed.';
+$lang['wpad_proxy_server_not_running'] = 'The web proxy server is not running.';
+$lang['wpad_rule_is_invalid'] = 'Invalid rule.';
+$lang['wpad_start_service'] = 'Start Web Server';
+$lang['wpad_subnet'] = 'Subnet';
+$lang['wpad_template_not_found'] = 'Apache configlet template not found.';
+$lang['wpad_this_server'] = 'This server';
+$lang['wpad_tooltip_dns'] = 'If you configure DNS as a means to propagate WPAD settings, your clients will need to use this server for DNS resolution.';
+$lang['wpad_unable_start_httpd'] = 'Unable to start Web Server - check your log files for cause.';
+$lang['wpad_via_direct'] = 'Direct';
+$lang['wpad_via_proxy'] = 'Via proxy';
+$lang['wpad_web_server_not_installed'] = 'The web server engine responsible for publishing your WPAD is not installed.';
+$lang['wpad_web_server_not_running'] = 'The web server engine responsible for publishing your WPAD is not running.';
+
+// vi: syntax=php ts=4

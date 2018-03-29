@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Modify fw script to handle ipv4/ipv6
+#-------------------------------------
+configlet="/etc/clearos/firewall.d/10-wpad"
+if [ -f $configlet ];then
+    if ! grep -q FW_PROTO $configlet;then
+        sed -i '1s/^/if [ \"\$FW_PROTO\" == \"ipv4\" ]; then\n/' $configlet
+        sed -i -e "\$afi" $configlet
+    fi
+fi
