@@ -6,7 +6,7 @@
 
 $app['basename'] = 'wpad';
 $app['version'] = '2.1.0';
-$app['release'] = '1';
+$app['release'] = '2';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
 $app['license'] = 'GPLv3';
