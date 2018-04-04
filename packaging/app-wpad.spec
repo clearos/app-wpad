@@ -1,8 +1,8 @@
 
 Name: app-wpad
 Epoch: 1
-Version: 2.1.0
-Release: 1%{dist}
+Version: 2.1.1
+Release: 2%{dist}
 Summary: Web Proxy Auto Discovery
 License: GPLv3
 Group: ClearOS/Apps
